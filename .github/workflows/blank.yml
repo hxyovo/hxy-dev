@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Theme firsttheme
+
+on: [push]
+
+jobs:
+  deploy:
+    name: firsttheme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler: 'latest'
+      - name: Install Shopify CLI
+        run: npm install -g @shopify/cli @shopify/theme
+      - name: firsttheme
+        env:
+          # Store URL, like your-store.myshopify.com
+          SHOPIFY_FLAG_STORE: '${{ https://hxy-test.myshopify.com }}'
+          # Password generated from Theme Access app
+          SHOPIFY_CLI_THEME_TOKEN: ${{shptka_ec3ac83c77707df40f3e67fcd28ea54e }}
+          SHOPIFY_CLI_TTY: 0
+        run: shopify theme push --path ./D:\Admin\Desktop\mytheme\firsttheme --theme firsttheme
