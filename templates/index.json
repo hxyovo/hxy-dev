@@ -2,6 +2,7 @@
   "sections": {
     "44822cce-78e3-4ee6-9594-146296129cae": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<link href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0673\/1045\/3041\/files\/bootstrap.min.css?v=1680053454\" rel=\"stylesheet\" integrity=\"sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3\/Jr59b6EGGoI1aFkw7cmDA6j6gD\" crossorigin=\"anonymous\">\n<script src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0673\/1045\/3041\/files\/bootstrap.min.js?v=1680053472\" crossorigin=\"anonymous\"><\/script>\n\n<link href='http:\/\/fonts.googleapis.com\/css?family=Roboto' rel='stylesheet' type='text\/css'>\n\n<style type=\"text\/css\">\n    *{\n        padding: 0px;\n        margin: 0px;\n font-family: 'Roboto';\n    }\n    \n<\/style>",
         "color_scheme": "",
