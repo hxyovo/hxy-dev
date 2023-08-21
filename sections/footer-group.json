@@ -5,7 +5,21 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "e0eee542-9ef6-41fc-8e67-7c6fa7ee2ee3": {
+        "17d43008-3bf0-4af7-934e-e620c37a9f42": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "84e15af2-7013-4590-9934-62416b59af06": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "1dd8135d-eafb-4b92-8b56-7ebe887155a0": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
@@ -14,7 +28,9 @@
         }
       },
       "block_order": [
-        "e0eee542-9ef6-41fc-8e67-7c6fa7ee2ee3"
+        "17d43008-3bf0-4af7-934e-e620c37a9f42",
+        "84e15af2-7013-4590-9934-62416b59af06",
+        "1dd8135d-eafb-4b92-8b56-7ebe887155a0"
       ],
       "settings": {
         "color_scheme": "inverse",
