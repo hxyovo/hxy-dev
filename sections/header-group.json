@@ -5,7 +5,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "#HeaderMenu-MenuList-2{background-color:pink}"
+
       ],
       "settings": {
         "logo_position": "middle-left",
