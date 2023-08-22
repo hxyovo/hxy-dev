@@ -99,10 +99,10 @@
               <script>
                 var clickmenu= document.querySelector('.list-menu');
                 clickmenu.addEventListener('click',function(event){
-                  if (event.target.tagName === 'span') {
+                  {% comment %} if (event.target.tagName === 'span') {
                     console.log(event.target.textContent)
-                  }
-            
+                  } {% endcomment %}
+                  console.log(event.target)
                 })
               </script>
               {% for link in linklists.main-menu.links -%}
