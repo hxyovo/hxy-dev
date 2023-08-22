@@ -98,7 +98,9 @@
                 {%- endfor -%}
               </ul>
               {% for link in linklists.main-menu.links -%}
-              
+                {% if link.title=='Home' %}
+                  aria-current="page"
+                {% endif %}
                 {{ link.title | link_to: link.url }}
               {%- endfor %}
            <img src="{{'aus.jpg' | asset_url}}" class="dropdownphoto"/>
