@@ -25,7 +25,7 @@
                 </span>
                 {% render 'icon-caret' %}
               </summary>
-              <div
+              <ul
                 id="HeaderMenu-MenuList-{{ forloop.index }}"
                 class="header__submenu list-menu list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large motion-reduce global-settings-popup"
                 role="list"
@@ -76,7 +76,7 @@
                     {%- endif -%}
                   </li>
                 {%- endfor -%}
-              </div>
+              </ul>
             </details>
           </header-menu>
         {%- else -%}
