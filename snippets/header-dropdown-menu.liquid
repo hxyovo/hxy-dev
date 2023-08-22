@@ -98,7 +98,7 @@
                 {%- endfor -%}
               </ul>
               {% for link in linklists.main-menu.links -%}
-                {% if link.title %}
+                {% if link.title== %}
                   aria-current="page"
                 {% endif %}
                 {{ link.title | link_to: link.url }}
