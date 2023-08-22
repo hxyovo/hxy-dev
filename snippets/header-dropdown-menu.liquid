@@ -97,13 +97,14 @@
                 {%- endfor -%}
               </ul>
               <script>
-                var clickmenu= document.querySelector('.list-menu');
+                console.log(1111)
+                {% comment %} var clickmenu= document.querySelector('.list-menu');
                 clickmenu.addEventListener('click',function(e){
                   if (event.target.tagName === 'span') {
                     console.log(event.target.textContent)
                   }
             
-                })
+                }) {% endcomment %}
               </script>
               {% for link in linklists.main-menu.links -%}
                 {% if link.title =='Shop By' %}
