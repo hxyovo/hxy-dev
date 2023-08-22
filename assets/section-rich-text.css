@@ -21,7 +21,8 @@
   .rich-text__wrapper {
     width: 100%;
     display: flex;
-    justify-content: ;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .rich-text__wrapper--left {
