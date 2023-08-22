@@ -296,9 +296,9 @@
             {%- endform -%}
           </localization-form>
         {%- endif -%}
-        <svg>
+        {% comment %} <svg>
           <use xlink:href="#build-user"/>
-      </svg>
+      </svg> {% endcomment %}
       </div>
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
