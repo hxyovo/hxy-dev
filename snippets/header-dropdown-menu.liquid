@@ -97,7 +97,8 @@
                 {%- endfor -%}
               </ul>
               <script>
-                var clickmenu= document.querySelector('.list-menu')
+                var clickmenu= document.querySelector('.list-menu');
+                clickmenu.addEventListener()
               </script>
               {% for link in linklists.main-menu.links -%}
                 {% if link.title =='Shop By' %}
