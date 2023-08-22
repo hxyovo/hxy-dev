@@ -101,7 +101,6 @@
                 {% if link.title=='Home' %}
                   <img src="{{'aus.jpg' | asset_url}}" class="dropdownphoto"/>
                 {% endif %}
-                {{ link.title | link_to: link.url }}
               {%- endfor %}
               </div>
             </details>
