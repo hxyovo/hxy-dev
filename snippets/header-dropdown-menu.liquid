@@ -98,8 +98,11 @@
               </ul>
               <script>
                 var clickmenu= document.querySelector('.list-menu');
-                clickmenu.addEventListener('click',function(){
-                  
+                clickmenu.addEventListener('click',function(e){
+                  if (event.target.tagName === 'LI') {
+                    console.log(event.target.textContent)
+                  }
+            
                 })
               </script>
               {% for link in linklists.main-menu.links -%}
