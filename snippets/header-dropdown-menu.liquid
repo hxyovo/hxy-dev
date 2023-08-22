@@ -97,7 +97,9 @@
                   </li>
                 {%- endfor -%}
               </ul>
-              
+              {% for link in linklists.main-menu.links -%}
+                {{ link.title | link_to: link.url }}
+              {%- endfor %}
            <img src="{{'aus.jpg' | asset_url}}" class="dropdownphoto"/>
               </div>
             </details>
