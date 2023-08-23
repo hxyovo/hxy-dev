@@ -98,12 +98,13 @@
               </ul>
               <script>
                 var clickmenu= document.querySelector('.list-menu');
-                 clickmenu.addEventListener('click',function(event){
+                console.log(11111)
+                 {% comment %} clickmenu.addEventListener('click',function(event){
                    if (event.target.tagName === 'span') {
                     console.log(event.target.textContent)
                   } 
                   console.log(11111)
-                }) 
+                })  {% endcomment %}
 
               </script>
               {% for link in linklists.main-menu.links -%}
