@@ -76,7 +76,7 @@
                           id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
                           class="header__submenu list-menu motion-reduce"
                         >
-                          {%- for grandchildlink in childlink.links -%}
+                          {% comment %} {%- for grandchildlink in childlink.links -%}
                             <li>
                               <a
                                 id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
@@ -89,7 +89,7 @@
                                 {{ grandchildlink.title | escape }}
                               </a>
                             </li>
-                          {%- endfor -%}
+                          {%- endfor -%} {% endcomment %}
                         </ul>
                       </details>
                     {%- endif -%}
